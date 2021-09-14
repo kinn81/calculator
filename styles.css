@@ -1,0 +1,86 @@
+html {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+  }
+
+#buttons {
+    display:grid;
+	grid-template-rows: repeat(4, 100px);
+    grid-template-columns: repeat(4, 100px);
+    border-left: 1px solid black; 
+}
+
+.button {
+    border-right: 1px solid black;
+    border-bottom: 1px solid black;
+    font-size: 2rem;
+    font: bolder;
+    font-family: 'Urbanist', sans-serif;
+    padding-top: 2rem;
+    text-align: center;
+    font: bolder;
+    color: black;
+    background:#f2f4f5;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    
+}
+
+.button:active {
+    border-right: 1px solid black;
+    border-bottom: 1px solid black;
+    font-size: 2rem;
+    font: bolder;
+    font-family: 'Urbanist', sans-serif;
+    padding-top: 2rem;
+    text-align: center;
+    font: bolder;
+    color: black;
+    background:#c7c8c9;
+}
+
+#calculator {
+    display: inline-flex;
+    flex-direction: column;
+}
+
+#bck-clr {
+    display:flex;
+    flex-direction: row;
+    height: 100px;
+    border-left: 1px solid black;
+    border-top: 1px solid black;
+}
+
+#backspace {
+    box-sizing: border-box;   
+    height: 100%;
+    width: 50%; 
+}
+
+#clear {
+    /*border-left: 1px solid black;*/
+    box-sizing: border-box;
+    height: 100%;
+    width: 50%;   
+}
+
+#screen {
+    box-sizing: border-box;
+    height: 150px;
+    border-left: 1px solid black;
+    border-top: 1px solid black;
+    border-right: 1px solid black;
+    text-align: right;
+    padding-top: 1.75rem;
+    padding-right: 1rem;
+    font-family: 'Exo', sans-serif;
+    font-size: 5rem;
+    font: bolder;
+    
+}
