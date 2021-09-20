@@ -12,15 +12,15 @@ html {
 #screen {
     box-sizing: border-box;
     height: 150px;
-    border-left: 1px solid black;
-    border-top: 1px solid black;
-    border-right: 1px solid black;
+    border: 1px solid black;
     text-align: right;
     padding-top: 1.75rem;
     padding-right: 1rem;
     font-family: 'Exo', sans-serif;
     font-size: 5rem;
     font: bolder;
+    background:#7d7d7d;
+    color: #ededed;;
 }
 
 #buttons {
